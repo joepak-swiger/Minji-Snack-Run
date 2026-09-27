@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Minji's Snack Run",
+    "slug": "minjis-snack-run",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/minji.png"
+    }
+  }
+}

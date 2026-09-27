@@ -1,0 +1,25 @@
+{
+  "name": "minjis-snack-run",
+  "version": "0.3.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "expo start --go",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "doctor": "npx expo-doctor@latest"
+  },
+  "dependencies": {
+    "expo": "~57.0.25",
+    "expo-audio": "~57.0.5",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-web": "~0.21.0"
+  }
+}
